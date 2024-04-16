@@ -1,0 +1,20 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: 0;
+  border: 0;
+  font-family: "Kanit", sans-serif;
+}
+
+:root {
+  --silver: #f2f2f2;
+  --dark-silver:#dddd;
+  --light-gold: #D6CEC3;
+  --white: #ffff;
+  --text-black: #000000;
+}
+

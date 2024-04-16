@@ -1,0 +1,36 @@
+.stock_table_title {
+    font-size: 42px;
+    margin-bottom: 8px;
+}
+
+.stocks_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stocks_table th,
+.stocks_table td {
+  padding: 8px;
+  border: 1px solid var(--dark-silver);
+  transition: 400ms;
+}
+
+.stocks_table th {
+    font-size: 20px;
+}
+
+.stocks_table td {
+    font-size: 18px;
+}
+
+.stocks_table th {
+  background-color: var(--silver);
+}
+
+.stocks_table tbody tr:nth-child(even) {
+  background-color: var(--silver)
+}
+
+.stocks_table tbody tr:hover {
+  background-color: var(--light-silver);
+}

@@ -30,38 +30,44 @@ const AddStock = () => {
 
   return (
     <form className={styles.form_container} onSubmit={handleSubmit}>
-      <Input
-        type="text"
-        name="stockName"
-        placeholder="Write Stock Name"
-        value={formData.stockName}
-        onChange={handleInputChange}
-        required
-      />
-      <Input
-        type="text"
-        name="stockTicker"
-        placeholder="Write ticker"
-        value={formData.stockTicker}
-        onChange={handleInputChange}
-        required
-      />
-      <Input
-        type="number"
-        name="stockPrice"
-        placeholder="Price"
-        value={formData.stockPrice}
-        onChange={handleInputChange}
-        required
-      />
-      <Input
-        type="number"
-        name="stockQuantity"
-        placeholder="Quantity"
-        value={formData.stockQuantity}
-        onChange={handleInputChange}
-        required
-      />
+      <div className={styles.header_form_inputs_wrapper}>
+        <div className={styles.first_row}>
+          <Input
+            type="text"
+            name="stockName"
+            placeholder="Write Stock Name"
+            value={formData.stockName}
+            onChange={handleInputChange}
+            required
+          />
+          <Input
+            type="text"
+            name="stockTicker"
+            placeholder="Write ticker"
+            value={formData.stockTicker}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+        <div className={styles.second_row}>
+          <Input
+            type="number"
+            name="stockPrice"
+            placeholder="Price"
+            value={formData.stockPrice}
+            onChange={handleInputChange}
+            required
+          />
+          <Input
+            type="number"
+            name="stockQuantity"
+            placeholder="Quantity"
+            value={formData.stockQuantity}
+            onChange={handleInputChange}
+            required
+          />
+        </div>
+      </div>
       <Button type="submit" text="Submit" />
     </form>
   );

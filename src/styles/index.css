@@ -12,8 +12,8 @@
 
 :root {
   --silver: #f2f2f2;
-  --dark-silver:#dddd;
-  --light-gold: #D6CEC3;
+   --dark-silver:#dddd;
+ /* --light-gold: #D6CEC3; */
   --white: #ffff;
   --text-black: #000000;
 }

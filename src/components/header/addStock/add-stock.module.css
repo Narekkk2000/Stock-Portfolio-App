@@ -1,4 +1,24 @@
 .form_container {
-    display: flex;
-    gap: 20px;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header_form_inputs_wrapper,
+.first_row,
+.second_row {
+  display: flex;
+  gap: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+  .form_container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .header_form_inputs_wrapper {
+    flex-direction: column;
+  }
 }

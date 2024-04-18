@@ -1,0 +1,38 @@
+.ticker_text,
+.ticker_name {
+  font-size: 18px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ticker_price {
+  font-size: 14px;
+}
+.stock_item {
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+  padding: 0px 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  color: var(--white);
+  font-size: 10px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: 200ms;
+}
+
+.stock_item:hover {
+  background-color: var(--white);
+  color: var(--text-black);
+}
+
+.ticker_and_price {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
+}

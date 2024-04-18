@@ -1,12 +1,13 @@
 .shared_input {
-  padding: 6px 12px;
+  width: 120px;
+  padding: 6px 8px;
   background-color: var(--silver);
   border: 0;
   border-radius: 10px;
   font-size: 18px;
   transition: 300ms;
 }
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) {
   .shared_input {
     padding: 5px 12px;
     font-size: 16px;
@@ -17,5 +18,5 @@
     padding: 4px 8px;
     font-size: 14px;
   }
-}
+} */
 

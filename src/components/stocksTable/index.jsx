@@ -14,7 +14,6 @@ const StockTable = () => {
       <table className={styles.stocks_table}>
         <thead>
           <tr>
-            <th>Stock Name</th>
             <th>Stock Ticker</th>
             <th>Stock Price</th>
             <th>Stock Quantity</th>

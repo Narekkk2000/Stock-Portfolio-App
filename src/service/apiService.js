@@ -1,4 +1,4 @@
-const API_KEY = 'sk_0ffc6da160f84c3f989557431d9bc991';
+const API_KEY = '';
 const BASE_URL = 'https://cloud.iexapis.com/v1';
 
 export const getStockData = async (partialSymbol) => {
